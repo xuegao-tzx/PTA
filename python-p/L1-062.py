@@ -17,13 +17,6 @@ for i in range(n):
         ch.extend(str)
         sum1=int(ch[0])+int(ch[1])+int(ch[2])
         sum2=int(ch[3])+int(ch[4])+int(ch[5])
-        '''
-        for j in range(len(str)-1):
-            if(j>=0 and j<len(str)-3):
-                sum1 = sum1+int(ch[j])
-            if(j>=len(str)-3 and j<len(str)):
-                sum2 = sum2+int(ch[j])
-        '''
         if(sum1==sum2):
             print("You are lucky!")
         else:
